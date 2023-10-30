@@ -1,0 +1,19 @@
+/* Add these styles to ProductCard.module.css */
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    background-color: #CF8BA3;
+  }
+/* Add these styles to styles/Home.module.css or any global stylesheet */
+.container {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #CF8BA3;
+  }
+  
+  .main {
+    margin-top: 40px;
+  }
+    
